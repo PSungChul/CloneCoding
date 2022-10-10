@@ -66,6 +66,14 @@ body {
 	left: 1200px;
 }
 
+@media all and (max-width: 800px) {
+	#div_middle_top_right {
+	width: 100%;
+	margin: 0 auto;
+	transform: translate(-50%, 0);
+}
+}
+
 #reservation {
 	position: inherit;
 	top: 1rem;
