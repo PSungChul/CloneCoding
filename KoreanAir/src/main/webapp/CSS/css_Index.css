@@ -5,8 +5,6 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: 100vh;
-	width: 100vw;
 }
 
 #div_top {
@@ -66,11 +64,10 @@ body {
 	left: 1200px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1060px) {
 	#div_middle_top_right {
+	position: relative;
 	width: 100%;
-	margin: 0 auto;
-	transform: translate(-50%, 0);
 }
 }
 
