@@ -1,4 +1,22 @@
 @charset "UTF-8";
+/* 1060px 이상 */
+@media all and (min-width: 1060px) {
+	#div_middle_top_right {
+	width: 43.9rem;
+	}
+	#div_middle_top {
+	width: 100%;
+	}
+}
+/* 1060px 이하 */
+@media all and (max-width: 1060px) {
+	#div_middle_top_right {
+	width: 43.9rem;
+	}
+	#div_middle_top {
+	width: 100%;
+	}
+}
 
 body {
 	margin: 0;
@@ -35,6 +53,13 @@ body {
 	top: 2rem;
 	right: 5rem;
 }
+
+#user_icon {
+	background-image: url("icon/user.png");
+	background-repeat : no-repeat;
+	background-size: 32px;
+}
+
 /* 중단-상단 */
 #div_middle_top {
 	background-color: gray;
@@ -58,17 +83,10 @@ body {
 #div_middle_top_right {
 	background-color: navy;
 	height: 32.6rem;
-	width: 44.4rem;
+	width: 43.9rem;
 	position: absolute;
 	top: 7rem;
-	left: 1200px;
-}
-
-@media all and (max-width: 1060px) {
-	#div_middle_top_right {
-	position: relative;
-	width: 100%;
-}
+	left: 75rem;
 }
 
 #reservation {
