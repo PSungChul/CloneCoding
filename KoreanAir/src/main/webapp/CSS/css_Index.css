@@ -1,23 +1,7 @@
 @charset "UTF-8";
+
 /* 1060px 이상 */
 @media all and (min-width: 1060px) {
-	#div_middle_top_right {
-	width: 43.9rem;
-	}
-	#div_middle_top {
-	width: 100%;
-	}
-}
-/* 1060px 이하 */
-@media all and (max-width: 1060px) {
-	#div_middle_top_right {
-	width: 43.9rem;
-	}
-	#div_middle_top {
-	width: 100%;
-	}
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -51,13 +35,55 @@ body {
 #icon_top {
 	position: absolute;
 	top: 2rem;
-	right: 5rem;
+	right: 13rem;
 }
 
 #user_icon {
 	background-image: url("icon/user.png");
 	background-repeat : no-repeat;
+	background-position: center;
 	background-size: 32px;
+	background-color: transparent;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 0px;
+}
+
+#bell_icon {
+	background-image: url("icon/bell.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: 32px;
+	background-color: transparent;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 0px;
+}
+
+#shopping-cart_icon {
+	background-image: url("icon/shopping-cart.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: 32px;
+	background-color: transparent;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 0px;
+}
+
+#search_icon {
+	background-image: url("icon/search.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: 32px;
+	background-color: transparent;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 0px;
 }
 
 /* 중단-상단 */
@@ -65,28 +91,45 @@ body {
 	background-color: gray;
 	position: relative;
 	height: 450px;
-	width: 100%;
+	width: 98%;
+	margin: 0 auto;
 }
 
 #before {
 	position: inherit;
 	top: 25rem;
 	left: 18rem;
+	background-image: url("icon/angle-left.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: 16px;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 0px;
 }
 
 #after {
 	position: inherit;
 	top: 25rem;
 	left: 20rem;
+	background-image: url("icon/angle-right.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: 16px;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 0px;
 }
 
 #div_middle_top_right {
 	background-color: navy;
 	height: 32.6rem;
-	width: 43.9rem;
+	width: 38.4rem;
 	position: absolute;
 	top: 7rem;
-	left: 75rem;
+	left: 69rem;
 }
 
 #reservation {
@@ -153,4 +196,10 @@ body {
 	position: relative;
 	height: 500px;
 	width: 100%;
+}
+} /* @media all and (min-width: 1060px) */
+
+/* 1060px 이하 */
+@media all and (max-width: 1060px) {
+
 }
