@@ -2,11 +2,17 @@
 
 /* 1060px 이상 */
 @media all and (min-width: 1060px) {
-body {
+* {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 	overflow-y: auto;
+}
+
+.btn_transparent {
+	background-image: none;
+	background-color: transparent;
+	border: none;
 }
 
 #div_top {
@@ -39,15 +45,14 @@ body {
 }
 
 #user_icon {
-	background-image: url("icon/user.png");
-	background-repeat : no-repeat;
-	background-position: center;
-	background-size: 32px;
-	background-color: transparent;
-	padding: 5px;
-	outline: none;
-	box-sizing: border-box;
-	border: 0px;
+	background-image: url("icon/user.png"); /* 이미지 경로 */
+	background-repeat : no-repeat; /* 버튼 여백에 이미지 반복: 금지 */
+	background-position: center; /* 버튼 내부 이미지 위치: 중앙 */
+	background-size: 32px; /* 이미지 사이즈: 32px */
+	background-color: transparent; /* 버튼 배경색: 투명 */
+	padding: 5px; /* 버튼 안쪽 여백: 5px */
+	outline: none; /* 버튼 라인: 제거 */
+	border: 0px; /* 이미지 테두리 선: 0px */
 }
 
 #bell_icon {
@@ -58,7 +63,6 @@ body {
 	background-color: transparent;
 	padding: 5px;
 	outline: none;
-	box-sizing: border-box;
 	border: 0px;
 }
 
@@ -70,7 +74,6 @@ body {
 	background-color: transparent;
 	padding: 5px;
 	outline: none;
-	box-sizing: border-box;
 	border: 0px;
 }
 
@@ -82,7 +85,6 @@ body {
 	background-color: transparent;
 	padding: 5px;
 	outline: none;
-	box-sizing: border-box;
 	border: 0px;
 }
 
