@@ -90,9 +90,12 @@
 
 /* 중단-상단 */
 #div_middle_top {
-	background-color: gray;
+	background-image: url("picture/Front_1.jpg");
+	background-size: 110%;
+	background-position: center;
+	background-repeat : no-repeat;
 	position: relative;
-	height: 450px;
+	height: 466px;
 	width: 98%;
 	margin: 0 auto;
 }
