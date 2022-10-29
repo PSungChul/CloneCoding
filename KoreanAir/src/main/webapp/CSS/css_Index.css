@@ -129,7 +129,7 @@
 }
 
 #div_middle_top_right {
-	background-color: navy;
+	background-color: #80000080;
 	height: 32.6rem;
 	width: 38.4rem;
 	position: absolute;
@@ -206,5 +206,5 @@
 
 /* 1060px 이하 */
 @media all and (max-width: 1060px) {
-
+	
 }
