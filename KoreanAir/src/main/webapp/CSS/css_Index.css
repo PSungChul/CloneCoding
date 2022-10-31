@@ -9,15 +9,28 @@
 	overflow-y: auto;
 }
 
+ul {
+	padding-left: 0; /* 왼쪽 여백 제거 */
+	list-style: none; /* 기호 제거 */
+}
+
 .btn_transparent {
 	background-image: none;
 	background-color: transparent;
 	border: none;
+	padding: 0 1.6vw;
 }
 
 #div_top {
 	height: 100px;
 	width: 100%;
+	border-style: solid; /* 테두리 스타일: 실선 */
+	border-left-width: 0px; /* 왼쪽 테두리 두께: 0px */
+	border-right-width: 0px; /* 오른쪽 테두리 두께: 0px */
+	border-top-width: 0px; /* 상단 테두리 두께: 0px */
+	border-bottom-width: 1px; /* 하단 테두리 두께: 1px */
+	border-color: #dcdcdc;
+	box-sizing: border-box; /* 테두리박스 사이즈 설정 방식 */
 }
 
 #logo_koreanair {
@@ -36,6 +49,71 @@
 	top: 3rem;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+#ticketing_menu {
+	/* display: none; 화면에서 안보이게 만들기 */
+	position: absolute;
+	height: 22rem;
+	width: 100%;
+	background-color: white;
+	border-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+
+#ticketing_menu_1 {
+	position: absolute;
+	left: 14rem;
+	border-style: solid; /* 테두리 스타일: 실선 */
+	border-left-width: 1px; /* 왼쪽 테두리 두께: 1px */
+	border-right-width: 0px; /* 오른쪽 테두리 두께: 0px */
+	border-top-width: 0px; /* 상단 테두리 두께: 0px */
+	border-bottom-width: 0px; /* 하단 테두리 두께: 0px */
+	border-color: #dcdcdc; /* 테두리 색상 */
+	box-sizing: border-box; /* 테두리박스 사이즈 설정 방식 */
+	padding: 3rem 3.5% 5rem; /* 내부 여백 */
+	
+}
+
+#ticketing_menu_2 {
+	position: absolute;
+	left: 34rem;
+	border-style: solid;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-color: #dcdcdc;
+	box-sizing: border-box;
+	padding: 3rem 3.5% 5rem;
+}
+
+#ticketing_menu_3 {
+	position: absolute;
+	left: 54rem;
+	border-style: solid;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-color: #dcdcdc;
+	box-sizing: border-box;
+	padding: 3rem 3.5% 5rem;
+}
+
+#ticketing_menu_4 {
+	position: absolute;
+	left: 74rem;
+	border-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-color: #dcdcdc;
+	padding: 3rem 3.5% 5rem;
 }
 
 #icon_top {
@@ -98,6 +176,7 @@
 	height: 466px;
 	width: 98%;
 	margin: 0 auto;
+	z-index: -2;
 }
 
 #before {
@@ -135,6 +214,7 @@
 	position: absolute;
 	top: 7rem;
 	left: 69rem;
+	z-index: -1;
 }
 
 #reservation {
