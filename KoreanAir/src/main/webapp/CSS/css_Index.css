@@ -38,7 +38,7 @@ ul {
 	padding: 0 1.6vw;
 }
 
-.top_menu {
+.top_toggle_menu {
 	position: absolute;
 	height: 22rem;
 	width: 100%;
@@ -82,7 +82,7 @@ ul {
 	transform: translate(-50%, -50%);
 }
 
-.top_menu_1 {
+.top_toggle_menu_1 {
 	position: absolute;
 	left: 14rem;
 	height: 22rem;
@@ -97,7 +97,7 @@ ul {
 	
 }
 
-.top_menu_2 {
+.top_toggle_menu_2 {
 	position: absolute;
 	left: 34rem;
 	height: 22rem;
@@ -111,7 +111,7 @@ ul {
 	padding: 3rem 3.5% 5rem;
 }
 
-.top_menu_3 {
+.top_toggle_menu_3 {
 	position: absolute;
 	left: 54rem;
 	height: 22rem;
@@ -125,7 +125,7 @@ ul {
 	padding: 3rem 3.5% 5rem;
 }
 
-.top_menu_4 {
+.top_toggle_menu_4 {
 	position: absolute;
 	left: 74rem;
 	height: 22rem;
@@ -140,7 +140,7 @@ ul {
 	background-color: #F0FFFF;
 }
 
-.btn_close {
+.top_toggle_close {
 	display: inline;
 	float: right;
 	padding-right:12px;
